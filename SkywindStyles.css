@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Magic_Cards";
+    src: url(./Magic_Cards/MAGIC_CA.ttf) format('truetype');
+}
+
+html {
+    background-color: #28210f;
+    background-image: url(./Images/Gallery_ot710.png);
+}
+
+body {
+background-color: #AE785C;
+    color: #28210F;
+    margin: 0px auto;
+   min-height: 100%;
+   min-width: 320px;
+   max-width: 1024px;
+   width: 100%;
+}
+
+
+header {
+    display: block;
+    min-width: 320px;
+    max-width: 1024px;
+    background-color: #CD9E99;
+}
+
+img {
+    width: 50%;
+    float: left;
+}
+
+header > h1 {
+font-size: 3em;
+margin: auto;
+text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Magic_Cards";
+    padding-left: 15px;
+}
+
+p {
+    padding-left: 30px;
+}
